@@ -145,11 +145,11 @@
                                 <a href="/Cart/AddToCart/?productId=@item.ProductId" class="btn btn-sm text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add To Cart</a>
 
                             </div>
-                            <td>
+                            <div>
                                 <a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> |
                                 <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> | 
                                 <a asp-action="Delete" asp-route-id="@item. ProductId">Delete</a>
-                            </td>
+                            </div>
                         </div>
                     </div>
                 }
@@ -175,10 +175,10 @@
                                     <span aria-hidden="true">&raquo;</span>
                                     <span class="sr-only">Next</span>
                                 </a> *@
-                            </li>
+    @*                         </li>
                         </ul>
-                    </nav>
-                </div>
+                    </nav> *@
+               @*  </div> *@
             </div>
         </div>
         <!-- Shop Product End -->
